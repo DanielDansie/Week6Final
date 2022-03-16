@@ -19,7 +19,7 @@ function createResponse(display, comment) {
             editBox.toggleClass('noDisplay');
         });
         i.on('click', '.delete', function() {
-            let deleteBox = $(this).parent().parent();
+            let deleteBox = $(this).parent().parent().parent();
             deleteBox.remove('div.response');
         });
         i.on('click', '.submit', function() {
