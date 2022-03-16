@@ -1,0 +1,119 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+} */
+
+body {
+  background-color: lightgray;
+  padding: 0 50px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#background {
+  background-color: gray;
+  height: 100%;
+}
+
+#question {
+  background-color: white; 
+  border: 0 solid square;
+  display: block;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 50px;
+  left: 50px;
+}
+
+#question h2 {
+  font-size: 40px;
+  display: block;
+  margin: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#responses {
+  background-color: gray;
+  margin: 156px 0 42px;
+  padding: 10px;
+  height: 100%;
+}
+
+.response {
+  background-color: white;
+  margin: 15px 0;
+  display: flex;
+}
+
+.response img {
+  width: 40px;
+  height: 40px;
+  margin: 20px 10px;
+}
+
+.response>div{
+  flex: 1 1 0%;
+}
+
+.response-header {
+  display: flex;
+  margin: 10px 0;
+}
+
+.comment {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.displayName {
+  flex: 1 1 0%;
+}
+
+.editBox {
+  display: flex;
+  margin: 10px 0;
+}
+
+.editComment {
+  flex: 1 1 0%;
+}
+
+#answer {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  font-family: Helvetica;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  left: 50px;
+}
+
+#answer input {
+  margin: 0 10px;
+}
+
+#comment {
+  flex: 1 1 0%;
+}
+
+.noDisplay {
+  display: none;
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  color: aqua;
+  margin: 0 2px;
+  font-size: 16px;
+}
+
+.submit {
+  font-size: 22px;
+}
